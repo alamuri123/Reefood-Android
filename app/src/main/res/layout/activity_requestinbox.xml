@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/green"
+    android:layout_height="match_parent"
+    tools:context=".RequestinboxActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/loginpagebox"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inbox Request"
+            android:textColor="@color/black"
+            android:textSize="38sp"
+            android:fontFamily="sans-serif-medium"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fillViewport="true">
+
+            <TableLayout
+                android:id="@+id/tableLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*"
+                android:divider="@android:color/darker_gray"
+                android:dividerHeight="1dp" />
+
+        </HorizontalScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

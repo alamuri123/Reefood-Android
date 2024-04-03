@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group_main">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_chats"
+            android:title="Chats" />
+<!--        <item-->
+<!--            android:id="@+id/nav_search"-->
+<!--            android:title="Search" />-->
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout" />
+    </group>
+
+    <!-- ImageView should be placed inside a menu item -->
+
+</menu>
